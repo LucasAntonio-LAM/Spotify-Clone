@@ -23,7 +23,15 @@
     --text-9xl: 9rem;
 }
 
+/* Configuração de Spacing */
+
+@utility 14 { spacing: var(--spacing-14); }
+
+@utility 125px { spacing: var(--spacing-125px); }
+
+
 /* Configuração de BackgroundSize */
+
 @utility bg-size-175per { background-size: var(--background-size-175per); }
 
 @utility bg-size-195per { background-size: var(--background-size-195per); }
