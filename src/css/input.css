@@ -1,1 +1,33 @@
 @import "tailwindcss";
+
+@theme {
+    /* Tamanhos Personalizados */
+    --background-size-175per: 175%;
+    --background-size-195per: 195%;
+
+    /* Posições personalizadas */
+    --background-position-banner: 46% 4%;
+    --background-position-banner-mobile: top 25% center;
+    
+
+    /* Configuração de Spacing */
+    --spacing-14: 3.5rem;
+    --spacing-125px: 125px;
+    
+    /* Configuração de Cores */
+    --color-hoverspt: #18d760;
+    --color-purplemain: #2D46B9;
+    --color-greenmain: #1ED760;
+
+    /* Tamanho da Fonte */
+    --text-9xl: 9rem;
+}
+
+/* Configuração de BackgroundSize */
+@utility bg-size-175per { background-size: var(--background-size-175per); }
+
+@utility bg-size-195per { background-size: var(--background-size-195per); }
+
+@utility bg-position-banner { background-position: var(--background-position-banner); }
+
+@utility bg-position-banner-mobile { background-position: var(--background-position-banner-mobile); }
