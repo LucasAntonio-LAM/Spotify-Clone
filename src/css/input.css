@@ -26,7 +26,12 @@
 
 /* Imagem de Fundo*/
 
-
+.bg-spotify-theme-mobile {
+    background-image: url('../img/bursts-mobile.svg');
+  }
+  .bg-spotify-theme {
+    background-image: url('../img/bursts.svg');
+  }
 
 /* Configuração de Spacing */
 
