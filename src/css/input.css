@@ -29,10 +29,13 @@
 
 .bg-spotify-theme-mobile {
     background-image: url('../img/bursts-mobile.svg');
-  }
-  .bg-spotify-theme {
+}
+
+
+.bg-spotify-theme {
     background-image: url('../img/bursts.svg');
-  }
+}
+
 
 /* Configuração de Spacing */
 
