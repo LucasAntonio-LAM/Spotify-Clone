@@ -4,12 +4,13 @@
     /* Tamanhos Personalizados */
     --background-size-175per: 175%;
     --background-size-195per: 195%;
+    --background-size-lgper: 1000px;
 
     /* Posições personalizadas */
-    --background-position-banner: 46% 4%;
-    --background-position-banner-mobile: top 25% center;
+    --background-position-banner: top 35% center;
+    --background-position-banner-mobile: top 55% center;
+    --baground-position-banner-lg: top 25% center;
     
-
     /* Configuração de Spacing */
     --spacing-a14: 3.5rem;
     --spacing-a125px: 125px;
@@ -46,6 +47,10 @@
 
 @utility bg-size-195per { background-size: var(--background-size-195per); }
 
+@utility bg-size-lgper { background-size: var(--background-size-lgper); }
+
 @utility bg-position-banner { background-position: var(--background-position-banner); }
 
 @utility bg-position-banner-mobile { background-position: var(--background-position-banner-mobile); }
+
+@utility bg-position-banner-lg { background-position: var(--baground-position-banner-lg); }
