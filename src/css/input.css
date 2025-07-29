@@ -11,8 +11,8 @@
     
 
     /* Configuração de Spacing */
-    --spacing-14: 3.5rem;
-    --spacing-125px: 125px;
+    --spacing-a14: 3.5rem;
+    --spacing-a125px: 125px;
     
     /* Configuração de Cores */
     --color-hoverspt: #18d760;
@@ -35,9 +35,9 @@
 
 /* Configuração de Spacing */
 
-@utility 14 { spacing: var(--spacing-14); }
+@utility a14 { spacing: var(--spacing-a14); }
 
-@utility 125px { spacing: var(--spacing-125px); }
+@utility a125px { spacing: var(--spacing-a125px); }
 
 
 /* Configuração de BackgroundSize */
